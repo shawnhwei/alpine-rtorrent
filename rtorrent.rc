@@ -23,13 +23,13 @@
 
 # Default directory to save the downloaded torrents.
 #
-directory.default.set = /downloads
+directory.default.set = /rtorrent/downloads
 
 # Default session directory. Make sure you don't run multiple instance
 # of rtorrent using the same session directory. Perhaps using a
 # relative path?
 #
-session.path.set = /rtsession
+session.path.set = /rtorrent/session
 
 # Watch a directory for new torrents, and stop those that have been
 # deleted.
