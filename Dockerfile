@@ -13,7 +13,7 @@ COPY supervisord.conf /config/
 
 COPY rtorrent.rc /root/.rtorrent.rc
 
-VOLUME /root /rtsession /downloads
+VOLUME /root /rtorrent /rtorrent/session /rtorrent/downloads
 
 EXPOSE 6881/udp 5000 49198
 
