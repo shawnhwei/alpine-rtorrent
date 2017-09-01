@@ -9,7 +9,7 @@ RUN apk add --no-cache rtorrent supervisor tzdata
 
 RUN cp /usr/share/zoneinfo/$timezone /etc/localtime && echo "$timezone" > /etc/timezone && date && apk del tzdata
 
-COPY supervisord.conf /config
+COPY supervisord.conf /config/
 
 COPY rtorrent.rc /root/.rtorrent.rc
 
