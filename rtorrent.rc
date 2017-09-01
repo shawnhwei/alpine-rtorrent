@@ -23,13 +23,13 @@
 
 # Default directory to save the downloaded torrents.
 #
-#directory.default.set = ./
+directory.default.set = /downloads
 
 # Default session directory. Make sure you don't run multiple instance
 # of rtorrent using the same session directory. Perhaps using a
 # relative path?
 #
-#session.path.set = ./session
+session.path.set = /rtsession
 
 # Watch a directory for new torrents, and stop those that have been
 # deleted.
@@ -58,7 +58,7 @@ network.port_range.set = 49198-49198
 
 # Start opening ports at a random position within the port range.
 #
-#network.port_random.set = no
+network.port_random.set = no
 
 # Check hash for finished torrents. Might be usefull until the bug is
 # fixed that causes lack of diskspace not to be properly reported.
@@ -88,11 +88,11 @@ network.port_range.set = 49198-49198
 # "auto" (start and stop DHT as needed), or "on" (start DHT immediately).
 # The default is "off". For DHT to work, a session directory must be defined.
 # 
-# dht.mode.set = auto
+#dht.mode.set = auto
 
 # UDP port to use for DHT. 
 #
-#dht.port.set = 6881
+dht.port.set = 6881
 
 # Enable peer exchange (for torrents not marked private)
 #
